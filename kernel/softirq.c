@@ -198,6 +198,7 @@ void local_bh_enable_ip(unsigned long ip)
 EXPORT_SYMBOL(local_bh_enable_ip);
 
 /*
+<<<<<<< HEAD
  * We restart softirq processing for at most 2 ms,
  * and if need_resched() is not set.
  *
