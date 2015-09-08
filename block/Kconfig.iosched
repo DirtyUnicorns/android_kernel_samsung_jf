@@ -86,7 +86,6 @@ config CGROUP_BFQIO
 	  Enable hierarchical scheduling in BFQ, using the cgroups
 	  filesystem interface.  The name of the subsystem will be
 	  bfqio.
->>>>>>> f9f8fb3... block: cgroups, kconfig, build bits for BFQ-v7r8-3.4
 
 choice
 	prompt "Default I/O scheduler"
